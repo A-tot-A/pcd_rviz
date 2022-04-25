@@ -6,7 +6,7 @@
 
 ```shell
 cd ~
-mkdir -p pcd_rviz_ws/src
+mkdir -p pcd_rviz/src
 cd ./pcd_rviz/src
 git clone　https://github.com/yzqttt/pcd_rviz.git
 ./download [name]
