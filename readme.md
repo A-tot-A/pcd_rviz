@@ -2,7 +2,18 @@
 
 本软件包用于从服务器上下载pcd点云文件并在rviz下显示pcd点云文件
 
-#### ２．Build
+<center class="half">
+    <img src="./pic/whole.png" width="500">
+    <img src="./pic/part.png"  width="600">
+</center>
+
+#### ２．Dependency
+
+> sudo apt-get install libpcl-dev pcl-tools
+>
+> sudo apt-get install ros-noetic-pcl-ros
+
+#### 3．Build
 
 **下载**
 
