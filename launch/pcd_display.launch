@@ -1,6 +1,6 @@
 <launch>
 
-<param name="pcd_file_path" type="string" value="$(find pcd_rviz)/pcd/aloam_park.pcd"/>
+<param name="pcd_file_path" type="string" value="$(find pcd_rviz)/pcd/points.pcd"/>
 <node pkg="pcd_rviz" type="pcd_display" name="display"/>
 <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find pcd_rviz)/rviz_cfg/rviz_cfg.rviz"/>
 </launch>

@@ -18,7 +18,7 @@ cd pcd_rviz
 
 ```shell
 ./download [name]
-cd ..
+cd ../..
 catkin_make
 source ./devel/setup.bash
 roslaunch pcd_rviz pcd_display.launch
